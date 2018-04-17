@@ -1,5 +1,18 @@
 body{
-font: 15px Arial, Helvetica, sans-serif;
+/*font: 15px Arial, Helvetica, sans-serif;*/
+
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Salsa', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Londrina Outline', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Abel', sans-serif;
+
+
+
+/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
 padding: 0;
 margin: 0;
 /*background-color: #f4f4f4*/
@@ -7,17 +20,24 @@ background-image: url("img/724.jpg");
 }
 /* Estilos globales */
 .contenedor{
-width: 80%; /*ancho*/
+width: 90%; /*ancho*/
 margin: auto;
 overflow: hidden;
+
 }
 .menu{
 	display: grid;
-	grid-template-columns: 10% 15% 70%;
+	grid-template-columns: 10% 25% 60%;
 
 }
 .menu #lista{
-	padding-top: 20px;
+	padding-top: 30px;
+	
+}
+
+.menu #logo img{
+	border-radius: 50%; /* pone la imagen en forma de circulo */
+
 }
 .talleres{
 	display: grid;
@@ -56,7 +76,7 @@ float: right;
 
 .boton1{
 height: 38px;
-background: #A74049;
+background: #7E3030;
 border: 0;
 padding-left: 20px;
 padding-right: 20px;
@@ -66,16 +86,17 @@ color: #fff;
 /* Encabezado */
 
 header{
-background-color: 747372;
-color: #fff;
-padding-top: 5px;
+background-color: #E9ECEC;  /*Color de fondo de menu */
+/*background: linear-gradient(black, yellow);*/
+color: #000;
+padding-top: 0px;
 min-height: 70px;
-border-bottom: 5px solid #A74049;
+border-bottom: 5px solid #7E3030;
 
 }
 
 header a{
-color: #fff;
+color: #000;
 text-decoration: none; /* Elimina linea debajo del texto */
 text-transform: uppercase; /* convierte el texto a mayuscula */
 font-size: 16px.
@@ -85,6 +106,8 @@ header li{
 float: left;
 display: inline;
 padding: 0 20px 0 0px; /*arriba izquierda abajo derecha*/
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 20px;
 }
 
 header #marca{
@@ -93,6 +116,10 @@ float: left;
 
 header #marca h1{
 margin: 0;
+font-size: 40px;
+color: #979494;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
 }
 
 header nav{
@@ -100,8 +127,16 @@ float: right;
 margin-top: 10px;
 }
 header .resaltado, header .actual{
-color: #000;
+color: #7E3030;   /*979494*/
 font-weight: bold; /*fuente negrita*/
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Salsa', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Londrina Outline', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Abel', sans-serif;
 }
 header a:hover{
 color: #ccc;
@@ -110,30 +145,37 @@ font-weight: bold; /*fuente negrita*/
 
 /* Cabecera con imagen*/
 
+#cabecera .contenedor h1{
+	padding-left: 20px;
+	padding-right: 20px;
+}
 #cabecera{
-min-height: 40px;
-background-image: url("../img/724.jpg");
+min-height: 600px; /* Tamaño de imagen */
+background-image: url("../img/fotoRobotica.jpg");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 text-align: center;
-color: #fff;
-border-bottom: 5px solid #A74049;
+color: #7B0B02;
+border-bottom: 5px solid #7E3030;
 }
 #cabecera h1{
-margin-top: 100px;
-font-size: 55px;
+margin-top: 50px;
+font-size: 40px; /* Tamaño fuente Escuela secundaria de ...*/
 margin-bottom: 10px;
+
 }
 #cabecera p{
 font-size: 20px;
 }
 
+
 /* Formulario boletin */
 
 #boletin{
-padding: 10px;
-color: #fff;
-background: #747372;
+padding: 2px;
+color: #979494;
+background: linear-gradient(#E9ECEC, #F5F5F5);
+/*background: #373636; Color de fondo de boletin */
 }
 #boletin h1{
 float: left;
@@ -148,15 +190,21 @@ height: 25px;
 width: 250px;
 }
 
+
 /* Cajas */
 
 
 
 /* Footer o pie de pagina */
 footer{
-	padding: 20px;
-	margin-top: 20px;
+	padding: 10px;
+	margin-top: 0px;
 	color: #fff;
-	background-color: #A74049;
+	background-color: #7E3030;
 	text-align: center;
+}
+
+#contacto{
+	font-size: 10px;
+
 }
