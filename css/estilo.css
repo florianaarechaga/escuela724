@@ -162,6 +162,15 @@ text-align: center;
 color: #7B0B02;
 border-bottom: 5px solid #7E3030;
 }
+#cabecera-NI{ /*cabecera sin imagen*/
+	min-height: 600px; /* Tamaño de imagen */
+	/* background-image: url("../img/fotoRobotica.jpg"); */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	color: #7B0B02;
+	border-bottom: 5px solid #7E3030;
+	}
 #cabecera h1{
 margin-top: 50px;
 font-size: 50px; /* Tamaño fuente Escuela secundaria de ...*/
