@@ -16,12 +16,19 @@ font-family: 'Abel', sans-serif;
 padding: 0;
 margin: 0;
 /*background-color: #f4f4f4*/
-
-
-
-
-/*background-image: url("img/724.jpg"); */ 
+background-image: url("img/724.jpg"); 
 }
+.menu-principal li{
+float: left;
+display: inline;
+padding: 0 20px 0 0px; /*arriba izquierda abajo derecha*/
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 20px;
+}
+ul.submenu-personal li{
+	display: block;
+	}
+
 /* Estilos globales */
 .contenedor{
 width: 90%; /*ancho*/
@@ -105,14 +112,14 @@ text-decoration: none; /* Elimina linea debajo del texto */
 text-transform: uppercase; /* convierte el texto a mayuscula */
 font-size: 16px.
 }
-
+/*
 header li{
 float: left;
 display: inline;
-padding: 0 20px 0 0px; /*arriba izquierda abajo derecha*/
+padding: 0 20px 0 0px; /*arriba izquierda abajo derecha
 font-family: 'Yanone Kaffeesatz', sans-serif;
 font-size: 20px;
-}
+}                 */
 
 header #marca{
 float: left;
@@ -164,82 +171,22 @@ border-bottom: 5px solid #7E3030;
 }
 #cabecera h1{
 margin-top: 50px;
-font-size: 50px; /* Tamaño fuente Escuela secundaria de ...*/
+font-size: 40px; /* Tamaño fuente Escuela secundaria de ...*/
 margin-bottom: 10px;
-font-family: 'Yanone Kaffeesatz', sans-serif;
-padding-bottom: 10px;
 
 }
 #cabecera p{
 font-size: 20px;
 }
-#cabecera .descripcion p{
-font-size: 20px;
-font-weight: bold;
 
-}
-/* CONTENIDO DE PESTAÑA HISTORIA*/
-#cabecera .contenedor .contenido{
-	border-style: double;
-	border-color: #7E3030;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 10px;
-	text-align: justify;
-	background-color: rgba(112, 56, 58, 0.6);;
-	color: #fff;
-
-
-}
-#cabecera .contenedor .contenido p{
-		font-family: 'Abel', sans-serif;
-		font-size: 20px;
-}
-#cabecera .contenedor .contenido h1{
-	font-size: 20px; 		/* Tamaño fuente de contenido de historia de la escuela */
-	}
-
-/* CONTENIDO DE PESTAÑA HISTORIA*/
-
-#cabecera .contenedor .contenido2{
-	border-style: double;
-	border-color: #7E3030;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 10px;
-	text-align: center;
-	background-color: rgba(112, 56, 58, 0.6);;
-	color: #fff;
-
-
-}
-#cabecera .contenedor .contenido2 p{
-	font-size: 25px; 		/* Tamaño fuente de contenido de autoridades */
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Vast Shadow', cursive;
-font-family: 'Salsa', cursive;
-font-family: 'Cormorant SC', serif;
-font-family: 'Londrina Outline', cursive;
-font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Abel', sans-serif;
-
-	}
 
 /* Formulario boletin */
 
 #boletin{
-padding: 0px;
+padding: 2px;
 color: #979494;
-background: #E9ECEC;
-
+background: linear-gradient(#E9ECEC, #F5F5F5);
 /*background: #373636; Color de fondo de boletin */
-}
-
-#boletin .contenedor{
-	background-image: url("img/imagenf.jpeg"); /*VER!! no funciona*/
 }
 #boletin h1{
 float: left;
@@ -254,50 +201,6 @@ height: 25px;
 width: 250px;
 }
 
-/* Formulario de contacto */
-
-input, textarea{
-	width: 100%; /* ancho de los espacios para colocar texto */
-	height: 35px; /* alto de los espacios para colocar texto */
-	border: 1px solid gray;
-	margin-bottom: 5px;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-
-textarea{
-	height: 120px;
-}
-input[type="submit"]{
-	background-color: #7e3030;
-	color: #fff;
-}
-
-.contenedor3{
-display: grid;
-	grid-template-columns: 30% 40% 30%;
-}
-
-/* Medua Queries */
-
-@media (max-width: 768px){
-	header #narca,
-	header nav,
-	header nav li,
-	#boletin h1,
-	#boletin form,
-	#cajas .caja,
-	article#main-col,
-	article#lateral{
-		float: none;
-		text-align: center;
-		widows: 100%;
-	}
-	header{
-		padding-bottom: 20px;
-	}
-}
 
 /* Cajas */
 

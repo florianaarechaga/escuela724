@@ -34,16 +34,19 @@
 				<div id="lista">
 					<nav>
 						<ul>
-							<li class="actual"><a href="index12.html">Inicio</li></a>
+							<li class="actual"><a href="index.html">Inicio</li></a>
+							
 							<li><a href="historia.html">Historia</li></a>
+							<li><a href="https://danibarria.github.io/muestra2018/muestra">Mapa de la muestra! </a></li>
+							<li><a href="autoridades.html">Autoridades</li></a>
 							<li><a href="ofertaacademica.html">Oferta Académica</li></a>
-							<li><a href="personaldocente.html">Personal</li></a>
 								
 								
 							<li><a href="noticias.html">Noticias</li></a>
-							<li><a href="noticias.html">Moodle</li></a>
-							<li><a href="egresados.html">Egresados</li></a>
-							<li><a href="index12.html#contacto">Contacto</li></a>
+							<li><a href="https://esetp724.edu.ar/moodle">Moodle</li></a>
+							<!-- <li><a href="egresados.html">Egresados</li></a> -->
+							<li><a href="https://facebook.com/muestraanual724">Facebook</li></a>
+							<!--  <li class="actual"><a href="contacto.html">Contacto</li></a>  -->
 
 						</ul>	
 					</nav>				
@@ -52,23 +55,156 @@
 		</header>	
 		<section id="cabecera">
 			<div class="contenedor">
-				<h1>Escuela Secundaria de Educación Técnica y Profesional</h1>
-			<!--	<p>descripcion de la escuela</p> -->
+				<h1>ESCUELA SECUNDARIA DE EDUCACIÓN TÉCNICA Y PROFESIONAL</h1>
+				<!-- <div class="descripcion">
+				<p>AUTORIDADES</p> 
+				<p>Director: Daniel Vallejos:</p>
+				<p>Vicedirectora: Stella Maris Ledezma</p>
+				<p>Jefe de taller: Humberto Moyano</p>
+				</div> -->
 			</div>
 		</section>
 	</section>
 
 	
+
+
+<!--
+
+
+
+
+
+
+<form action="#" method="POST" enctype="multipart/form-data">
+    <table id="formularioSubida" border="0">
+        <thead>
+            <th>Elige los archivos que quieras subir</th>
+        </thead>
+        <tr>
+            <td>
+                <div class="inputImagenModificado">
+                    <input class="inputImagenOculto" name="imagen1" type="file">
+                    <div class="inputParaMostrar">
+                        <input>
+                        <img src="imagenes/button_select2.gif">
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                <input type="button" id="botonAnnadir" onClick="agregarFila('formularioSubida','botonAnnadir')" value="Añadir archivo" style="width:138px;">        
+                <input type="submit" name="botonSubir" value="Subir"> 
+            </td>
+        </tr>
+    </table>
+</form>
+
+var numeroFila=2;
+
+/*
+ * Funcion que agrega un nueva fila a la tabla para subir imagenes, para poder subir mas de una.
+ * 
+ * @param idTabla Identificador de la tabla en la que se quiere añadir una nueva fila
+ * @param idBoton Identificador del boton que llama a esta funcion
+ */
+function agregarFila(idTabla,idBoton){
+    
+    // Limitamos el numero de filas a 10.
+    if (numeroFila <= 10){
+        // Inserta una nueva fila en la posicion numeroFila (la ultima).
+        nuevaFila = document.getElementById(idTabla).insertRow(numeroFila);
+        
+        nuevaCelda = nuevaFila.insertCell(-1);
+        nuevaCelda.innerHTML = '<td><div class="inputImagenModificado"><input class="inputImagenOculto" name="imagen'+numeroFila+'" type="file"><div class="inputParaMostrar"><input><img src="imagenes/button_select2.gif"></div></div></td>';
+
+        // Funcion para modificar el estilo de los inputs
+        mostrarInputFileModificado('imagen'+numeroFila);
+        
+        // Incrementa numeroFila
+        numeroFila ++;
+    } else {
+        // Inserta una nueva fila en la posicion numeroFila (la ultima).
+        nuevaFila = document.getElementById(idTabla).insertRow(numeroFila);
+
+        // Inserta una nueva celda en la fila nueva, en la ultima posicion (por el -1). 
+        nuevaCelda = nuevaFila.insertCell(-1);
+        nuevaCelda.innerHTML = '<td>Solo se pueden subir 10 archivos a la vez.</td>';
+        
+        // Desactivamos el boton para agregar mas filas.
+        document.getElementById(idBoton).disabled = true;
+    }
+}
+
+/**
+ * Funcion para subir imagenes
+ * 
+ * @param $campoArchivo Nombre del campo en el que se subira el archivo.
+ * @param $dir Directorio en el que se guardara la imagen. 
+ * @param $conexion Conexion con la base de datos.
+ */
+function subirImagen($archivo, $dir, $conexion){     
+    // Se comprueba que el archivo a subir sea una imagen.
+    if($_FILES[$archivo]["type"] == "image/jpeg"){
+            
+        // Se comprueba si ha ocurrido algun error al subir el archivo.
+        if ($_FILES[$archivo]["error"]) {
+            echo '<div class="error">Error '.$_FILES["archivo"]["error"].'al intentar subir el archivo '.$_FILES[$archivo]["name"].'</div>';
+        } else {
+            // Se comprueba si ya se ha creado el subdirectorio para almacenar la imagen.
+            // Y se crea si no existe aun.
+            if(!is_dir("imagenes/".$dir)){
+                mkdir("imagenes/".$dir, 0755);
+            }
+
+            // Comprobamos que no haya ningun archivo con el mismo nombre en el servidor.
+            if (file_exists("imagenes/".$dir."/".$_FILES[$archivo]["name"])) {
+                echo '<div class="error">Ya hay un archivo con nombre '.$_FILES[$archivo]["name"].'. Renombralo y vuelve a subirlo.</div>';   
+            } else {
+                // Subimos la imagen.
+                move_uploaded_file($_FILES[$archivo]["tmp_name"], "imagenes/".$dir."/".$_FILES[$archivo]["name"]);
+                echo '<div class="subido">Archivo '.$_FILES[$archivo]["name"].' subido.</div>';
+                                        
+                // Agregamos la imagen a la base de datos.
+                $consulta = sprintf("INSERT INTO galeriaimagenes (archivo, directorio) VALUES ('%s','%s')",          
+                    $conexion->real_escape_string($_FILES[$archivo]["name"]),
+                    $conexion->real_escape_string($dir)
+                );
+                    
+                // Se ejecuta la consulta.
+                $conexion->query($consulta);
+            }
+        }
+    } else {
+        echo '<div class="error">'.$_FILES[$archivo]["name"].': Formato de archivo no permitido. </div>';
+    }      
+}
+
+
+
+-->
+
+
+
+
 	
 	<section id="boletin"> 
-		<div class="contenedor">   <!--
-			<h1>Suscribete a nuestro taller</h1>
+		
+
+		<div class="contenedor">   
+			
+			<!--   <h1>Suscribirse a este sitio</h1>   -->
 			<form>
-				<input type="email" name="email" placeholder="Ingrese su email..."> <!-- la etiqueta name es para hacer la lalmada en php
-				<button type="submit" class="boton1">Suscríbete</button>
-			</form>                 -->
+				<!-- <input type="email" name="email" placeholder="Ingrese su email..."> <!-- la etiqueta name es para hacer la lalmada en php -->
+				<!-- <button type="submit" class="boton1">Suscríbete</button>  -->
+			</form>                 
 			<h1></h1>
+
+
 		</div>
+
+
 	</section>
 	<section class="pie-pagina">
 		<footer id="contacto"> <!-- Es el pie de página y todo lo que compone  -->
