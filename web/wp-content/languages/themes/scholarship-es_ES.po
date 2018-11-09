@@ -1,0 +1,944 @@
+# Translation of Themes - Scholarship in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Scholarship package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-10-28 18:43:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Scholarship\n"
+
+#. Description of the plugin/theme
+msgid "Scholarship is a the Best Free WordPress Education Theme designed for university, college, school, online courses and other education related websites. Theme displays your site in the best possible way on smartphones, tablets, and laptops, as well as large desktop screens. The theme has a clean design with powerful features. Scholarship would be the best choice for anyone with an intent to promote education online. Launch your institutional site with the Scholarship education WordPress theme! We have great customer support via email, support forum. View full Demo here: http://demo.mysterythemes.com/scholarship/ | Support: https://mysterythemes.com/support/forum/themes/free-themes/"
+msgstr "Scholarship es el mejor tema gratuito de educación de WordPress diseñado para la universidad, el instituto, el colegio, cursos online y otras páginas web relacionadas con la educación. El tema muestra tu sitio de la mejor forma posible, tanto en teléfonos inteligentes, tabletas y ordenadores portátiles, como en grandes pantallas de ordenadores de mesa. El tema tiene un diseño limpio y unas características potentes. ¡Lanza tu sitio institucional con el tema de educación de WordPress Scholarship! Tenemos una fantástica asistencia al cliente a través de correo electrónico, y asistencia en el foro. Aquí puedes ver la demostración completa: http://demo.mysterythemes.com/scholarship/ | Soporte: https://mysterythemes.com/support/forum/themes/free-themes/"
+
+#. translators: 1: title.
+#: comments.php:36
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un comentario en &ldquo;%1$s&rdquo;"
+
+#: inc/about-theme/scholarship-about.php:217
+#: inc/about-theme/scholarship-about.php:220
+msgid "Translate %1$s"
+msgstr "Traducir %1$s"
+
+#: inc/about-theme/scholarship-about.php:33
+msgid "About"
+msgstr "Acerca de"
+
+#: inc/about-theme/scholarship-about.php:311
+msgid "Activate"
+msgstr "Activar"
+
+#: inc/about-theme/scholarship-about.php:273
+msgid "Active"
+msgstr "Activo"
+
+#: inc/about-theme/scholarship-about.php:149
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: inc/about-theme/scholarship-about.php:218
+msgid "Click below to translate this theme into your own language."
+msgstr "Haz clic abajo para para traducir este tema en tu propio idioma."
+
+#: inc/customizer/customizer.php:52
+msgid "Buy Pro"
+msgstr "Compra la versión Pro"
+
+#: inc/about-theme/scholarship-about.php:520
+msgid "View Pro"
+msgstr "Ver la versión Pro"
+
+#: inc/about-theme/scholarship-about.php:514
+msgid "2"
+msgstr "2"
+
+#: inc/about-theme/scholarship-about.php:512
+msgid "Bottom Footer Layouts"
+msgstr "Disposición de pie de página en la parte inferior de la plantilla"
+
+#: inc/about-theme/scholarship-about.php:507
+msgid "Animation on Section"
+msgstr "Animación de la sección"
+
+#: inc/about-theme/scholarship-about.php:502
+msgid "Custom 404 Page"
+msgstr "Página 404 personalizable"
+
+#: inc/about-theme/scholarship-about.php:499
+msgid "10"
+msgstr "10"
+
+#: inc/about-theme/scholarship-about.php:498
+msgid "7"
+msgstr "7"
+
+#: inc/about-theme/scholarship-about.php:497
+msgid "No. of Widgets"
+msgstr "Número de widgets"
+
+#: inc/about-theme/scholarship-about.php:492
+msgid "The Events Calendar Plugin Compatible"
+msgstr "Compatible con el plugin calendario de eventos"
+
+#: inc/about-theme/scholarship-about.php:487
+msgid "WooCommerce Compatible"
+msgstr "Compatible con WooCommerce"
+
+#: inc/about-theme/scholarship-about.php:482
+msgid "Typography Options"
+msgstr "Opciones tipográficas"
+
+#: inc/about-theme/scholarship-about.php:479
+msgid "600+"
+msgstr "600+"
+
+#: inc/about-theme/scholarship-about.php:477
+msgid "Google Fonts"
+msgstr "Fuentes de Google"
+
+#: inc/about-theme/scholarship-about.php:472
+msgid "Single Page Layouts"
+msgstr "Diseño de página individual"
+
+#: inc/about-theme/scholarship-about.php:467
+msgid "Archive Pages Layouts"
+msgstr "Diseño de páginas de archivo"
+
+#: inc/about-theme/scholarship-about.php:464
+#: inc/about-theme/scholarship-about.php:469
+#: inc/about-theme/scholarship-about.php:474
+msgid "3"
+msgstr "3"
+
+#: inc/about-theme/scholarship-about.php:463
+#: inc/about-theme/scholarship-about.php:468
+#: inc/about-theme/scholarship-about.php:473
+#: inc/about-theme/scholarship-about.php:513
+msgid "1"
+msgstr "1"
+
+#: inc/about-theme/scholarship-about.php:462
+msgid "Header Layouts"
+msgstr "Disposición de la cabecera"
+
+#: inc/about-theme/scholarship-about.php:457
+msgid "Pre Loaders"
+msgstr "Precargadores"
+
+#: inc/about-theme/scholarship-about.php:452
+msgid "Import Demo Data"
+msgstr "Importar datos de demostración"
+
+#: inc/about-theme/scholarship-about.php:449
+msgid "$55"
+msgstr "55 $"
+
+#: inc/about-theme/scholarship-about.php:448
+msgid "Free"
+msgstr "Gratis"
+
+#: inc/about-theme/scholarship-about.php:447
+msgid "Price"
+msgstr "Precio"
+
+#: inc/about-theme/scholarship-about.php:442 inc/customizer/customizer.php:51
+msgid "Scholarship Pro"
+msgstr "Scholarship Pro"
+
+#: inc/about-theme/scholarship-about.php:440
+msgid "Features"
+msgstr "Características"
+
+#: inc/about-theme/scholarship-about.php:383
+msgid "View changelog below:"
+msgstr "Ver el registro de cambios más abajo"
+
+#: inc/about-theme/scholarship-about.php:213
+msgid "Customization"
+msgstr "Personalización"
+
+#: inc/about-theme/scholarship-about.php:189
+#: inc/about-theme/scholarship-about.php:275
+msgid "Customize"
+msgstr "Personalizar"
+
+#: inc/about-theme/scholarship-about.php:193
+#: inc/about-theme/scholarship-about.php:195
+msgid "Documentation"
+msgstr "Documentación"
+
+#: inc/about-theme/scholarship-about.php:232
+msgid "Go to Dashboard"
+msgstr "Ir al escritorio"
+
+#: inc/about-theme/scholarship-about.php:232
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Ir al escritorio &rarr; Inicio"
+
+#: inc/about-theme/scholarship-about.php:211
+msgid "Have you need customization?"
+msgstr "¿Necesitas personalización?"
+
+#: inc/about-theme/scholarship-about.php:320
+msgid "Install Now"
+msgstr "Instalar ahora"
+
+#: inc/about-theme/scholarship-about.php:130
+#: inc/about-theme/scholarship-about.php:207
+msgid "View PRO version"
+msgstr "Ver la versión PRO"
+
+#: inc/about-theme/scholarship-about.php:128
+msgid "View Demo"
+msgstr "Ver demo"
+
+#: inc/about-theme/scholarship-about.php:141
+msgid "Free Vs Pro"
+msgstr "Gratis Vs Pro"
+
+#: inc/about-theme/scholarship-about.php:126
+msgid "Theme Info"
+msgstr "Información del tema"
+
+#: inc/about-theme/scholarship-about.php:145
+msgid "More Themes"
+msgstr "Más temas"
+
+#: inc/about-theme/scholarship-about.php:187
+msgid "Theme Customizer"
+msgstr "Personalizador del tema"
+
+#: inc/about-theme/scholarship-about.php:132
+msgid "Rate this theme"
+msgstr "Califica este tema"
+
+#: inc/about-theme/scholarship-about.php:205
+msgid "Need more features?"
+msgstr "¿Necesitas más características?"
+
+#: inc/about-theme/scholarship-about.php:188
+msgid "All Theme Options are available via Customize screen."
+msgstr "Todas las opciones del tema están disponibles a través de la pantalla Personalizar."
+
+#: inc/about-theme/scholarship-about.php:194
+msgid "Please view our documentation page to setup the theme."
+msgstr "Por favor, consulta nuestra página de documentación para configurar el tema."
+
+#: inc/about-theme/scholarship-about.php:90
+msgid "Get started with scholarship"
+msgstr "Primeros pasos con scholarship"
+
+#: inc/about-theme/scholarship-about.php:323
+msgid "Live Preview"
+msgstr "Vista previa en vivo"
+
+#: inc/about-theme/scholarship-about.php:206
+#: inc/about-theme/scholarship-about.php:435
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Actualiza a la versión PRO para obtener más características interesantes."
+
+#: inc/about-theme/scholarship-about.php:229
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Volver a Escritorio &rarr; Actualizaciones"
+
+#: inc/about-theme/scholarship-about.php:229
+msgid "Return to Updates"
+msgstr "Volver a Actualizaciones"
+
+#: inc/about-theme/scholarship-about.php:73
+msgid "Cheat in &#8217; huh?"
+msgstr "¿Haciendo trampas?"
+
+#: inc/about-theme/scholarship-about.php:212
+msgid "Please send message with your requirement."
+msgstr "Envía un mensaje con tus requisitos."
+
+#: inc/about-theme/scholarship-about.php:201
+msgid "Support"
+msgstr "Soporte"
+
+#: inc/about-theme/scholarship-about.php:200
+msgid "Please put it in our dedicated support forum."
+msgstr "Ponlo en nuestro foro de soporte, por favor."
+
+#: inc/about-theme/scholarship-about.php:199
+msgid "Got theme support question?"
+msgstr "¿Tienes una pregunta de soporte del tema?"
+
+#: inc/about-theme/scholarship-about.php:88
+msgid "Welcome! Thank you for choosing scholarship! To fully take advantage of the best our theme can offer please make sure you visit our %1$s welcome page %2$s."
+msgstr "¡Bienvenido! ¡Gracias por elegir scholarship! Para aprovechar todo lo que nuestro tema puede ofrecer, visita nuestra %1$s página de bienvenida %2$s."
+
+#: inc/about-theme/scholarship-about.php:87
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: inc/about-theme/scholarship-about.php:69
+msgid "Action failed. Please refresh the page and retry."
+msgstr "La acción ha fallado. Recarga la página y reinténtalo, por favor."
+
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid " %s"
+msgstr " %s"
+
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid " %s"
+msgstr " %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:52 inc/template-tags.php:58
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:54
+msgid "Posted in %1$s"
+msgstr "Publicado en %1$s"
+
+#: inc/template-tags.php:60
+msgid "Tagged %1$s"
+msgstr "Etiquetado %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:67
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: template-parts/content-none.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para tu primera publicación? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: template-parts/content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos, pero nada coincide con tus términos de búsqueda. Por favor, inténtalo de nuevo con algunas palabras clave diferentes."
+
+#: template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no &rsquo;t podemos encontrar lo que estás buscando. Tal vez una nueva búsqueda puede ayudar."
+
+#: template-parts/content-page.php:22 template-parts/content-search.php:49
+#: template-parts/content-single.php:36 template-parts/content.php:49
+msgid "Pages:"
+msgstr "Páginas:"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:33 template-parts/content-single.php:47
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#. translators: %s: Name of current post.
+#: template-parts/content-single.php:31
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua leyendo %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. Template Name of the plugin/theme
+msgid "Home Page"
+msgstr "Página de inicio"
+
+#: inc/customizer/additional-panel.php:81
+msgid "Social Media Logo"
+msgstr "Logotipo de redes sociales"
+
+#: inc/customizer/additional-panel.php:82
+msgid "Choose social media icon."
+msgstr "Elegir icono de redes sociales."
+
+#: inc/customizer/additional-panel.php:86
+msgid "Social Icon Url"
+msgstr "URL de icono de red social"
+
+#: inc/customizer/additional-panel.php:87
+msgid "Enter social media url."
+msgstr "Introducir URL de red social."
+
+#: inc/customizer/customizer-custom-classes.php:29
+msgid "&mdash; Select Category &mdash;"
+msgstr "&mdash; Seleccionar categoría &mdash;"
+
+#: inc/customizer/customizer-custom-classes.php:299
+msgid "Delete"
+msgstr "Eliminar"
+
+#: inc/customizer/customizer-custom-classes.php:300
+msgid "Close"
+msgstr "Cerrar"
+
+#: inc/customizer/customizer-sanitize.php:46
+#: inc/customizer/general-panel.php:83
+msgid "Wide Layout"
+msgstr "Diseño amplio"
+
+#: inc/customizer/customizer-sanitize.php:47
+#: inc/customizer/general-panel.php:84
+msgid "Boxed Layout"
+msgstr "Diseño de caja"
+
+#: inc/customizer/customizer-sanitize.php:63
+#: inc/customizer/design-panel.php:116
+msgid "Classic Layout"
+msgstr "Diseño clásico"
+
+#: inc/customizer/customizer-sanitize.php:64
+#: inc/customizer/design-panel.php:117
+msgid "Grid Layout"
+msgstr "Diseño de cuadrícula"
+
+#: inc/customizer/customizer-sanitize.php:80 inc/customizer/footer-panel.php:71
+#: inc/customizer/header-panel.php:141 inc/customizer/header-panel.php:213
+msgid "Show"
+msgstr "Mostrar"
+
+#: inc/customizer/customizer-sanitize.php:81 inc/customizer/footer-panel.php:72
+#: inc/customizer/header-panel.php:142 inc/customizer/header-panel.php:214
+msgid "Hide"
+msgstr "Ocultar"
+
+#: inc/customizer/customizer-sanitize.php:97
+#: inc/customizer/footer-panel.php:180
+msgid "Social Icon"
+msgstr "Icono de redes sociales"
+
+#: inc/customizer/design-panel.php:35
+msgid "Design Settings"
+msgstr "Ajustes de diseño"
+
+#: inc/customizer/design-panel.php:47
+msgid "Archive Settings"
+msgstr "Ajustes de archivo"
+
+#: inc/customizer/design-panel.php:69
+msgid "Archive Sidebars"
+msgstr "Ajustes de barra lateral"
+
+#: inc/customizer/design-panel.php:70 inc/customizer/design-panel.php:154
+#: inc/customizer/design-panel.php:210
+msgid "Choose sidebar from available layouts"
+msgstr "Elige una barra lateral entre los diseños disponibles"
+
+#: inc/customizer/design-panel.php:74 inc/customizer/design-panel.php:158
+#: inc/customizer/design-panel.php:214
+#: inc/widgets/scholarship-widget-areas.php:38
+msgid "Left Sidebar"
+msgstr "Barra lateral izquierda"
+
+#: inc/customizer/design-panel.php:78 inc/customizer/design-panel.php:162
+#: inc/customizer/design-panel.php:218
+#: inc/widgets/scholarship-widget-areas.php:23
+msgid "Right Sidebar"
+msgstr "Barra lateral derecha"
+
+#: inc/customizer/design-panel.php:82 inc/customizer/design-panel.php:166
+#: inc/customizer/design-panel.php:222
+msgid "No Sidebar"
+msgstr "Sin barra lateral"
+
+#: inc/customizer/design-panel.php:86 inc/customizer/design-panel.php:170
+#: inc/customizer/design-panel.php:226
+msgid "No Sidebar Center"
+msgstr "Sin barra lateral central"
+
+#: inc/customizer/design-panel.php:112
+msgid "Archive Layout"
+msgstr "Diseño de archivo"
+
+#: inc/customizer/design-panel.php:113
+msgid "Choose layout from available layouts."
+msgstr "Elige un diseño entre los diseños disponibles."
+
+#: inc/customizer/design-panel.php:131
+msgid "Page Settings"
+msgstr "Ajustes de página"
+
+#: inc/customizer/design-panel.php:153
+msgid "Page Sidebars"
+msgstr "Barras laterales de página"
+
+#: inc/customizer/design-panel.php:187
+msgid "Post Settings"
+msgstr "Ajustes de publicación"
+
+#: inc/customizer/design-panel.php:209
+msgid "Post Sidebars"
+msgstr "Barras laterales de publicación"
+
+#: inc/customizer/footer-panel.php:32
+msgid "Footer Settings"
+msgstr "Ajustes de pie de página"
+
+#: inc/customizer/footer-panel.php:44
+msgid "Footer Widget Settings"
+msgstr "Ajustes de widget de pie de página"
+
+#: inc/customizer/footer-panel.php:67
+msgid "Footer Widget Option"
+msgstr "Opciones de widget de pie de página"
+
+#: inc/customizer/footer-panel.php:68
+msgid "Show/hide option for widget area located in footer section."
+msgstr "Mostrar/Ocultar la opción para el área del widget que se encuentra en la sección de pie de página."
+
+#: inc/customizer/footer-panel.php:95
+msgid "Footer Widget Layout"
+msgstr "Diseño de widget de pie de página"
+
+#: inc/customizer/footer-panel.php:96
+msgid "Choose layout from available layouts"
+msgstr "Elige un diseño entre los diseños disponibles"
+
+#: inc/customizer/footer-panel.php:100
+msgid "Columns Four"
+msgstr "Columna cuatro"
+
+#: inc/customizer/footer-panel.php:104
+msgid "Columns Three"
+msgstr "Columna tres"
+
+#: inc/customizer/footer-panel.php:108
+msgid "Columns Two"
+msgstr "Columna dos"
+
+#: inc/customizer/footer-panel.php:112
+msgid "Column One"
+msgstr "Columna uno"
+
+#: inc/customizer/footer-panel.php:130
+msgid "Bottom Footer Settings"
+msgstr "Ajustes de pie de página final"
+
+#: inc/customizer/footer-panel.php:153
+msgid "Copyright Text"
+msgstr "Texto de Derechos de autor"
+
+#: inc/customizer/footer-panel.php:176
+msgid "Sub Footer Content"
+msgstr "Contenido de pie de página secundario"
+
+#: inc/customizer/footer-panel.php:177
+msgid "Choose content to display at sub footer right side."
+msgstr "Elige un contenido para mostrar en el pie de página secundario del lado derecho."
+
+#: inc/customizer/frontpage-panel.php:32
+msgid "FrontPage Settings"
+msgstr "Ajustes de portada"
+
+#: inc/customizer/frontpage-panel.php:44
+msgid "Slider Settings"
+msgstr "Ajustes de carrusel"
+
+#: inc/customizer/frontpage-panel.php:67
+msgid "Slider Category"
+msgstr "Categoría del carrusel"
+
+#: inc/customizer/frontpage-panel.php:68
+msgid "Select category slider for only in homepage."
+msgstr "Selecciona una categoría del carrusel para la página de inicio."
+
+#: inc/customizer/general-panel.php:23
+msgid "Site Logo/Title/Favicon"
+msgstr "Logotipo de sitio/Título/Icono favorito"
+
+#: inc/customizer/general-panel.php:43
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: inc/customizer/general-panel.php:56
+msgid "Website Layout"
+msgstr "Diseño de sitio web"
+
+#: inc/customizer/general-panel.php:79
+msgid "Site Layout"
+msgstr "Diseño de sitio"
+
+#: inc/customizer/general-panel.php:80
+msgid "Select the website layout."
+msgstr "Selecciona el diseño del sitio web."
+
+#: inc/customizer/general-panel.php:105
+msgid "Primary Theme Color"
+msgstr "Color de tema primario"
+
+#: inc/customizer/general-panel.php:128
+msgid "Secondary Theme Color"
+msgstr "Color de tema secundario"
+
+#: inc/customizer/general-panel.php:153
+msgid "Header Text Color"
+msgstr "Color de texto de cabecera"
+
+#: inc/customizer/general-panel.php:176
+msgid "Display Site Title and Tagline"
+msgstr "Mostrar título del sitio y lema"
+
+#: inc/customizer/header-panel.php:32
+msgid "Header Settings"
+msgstr "Ajustes de cabecera"
+
+#: inc/customizer/header-panel.php:45
+msgid "Header Elements"
+msgstr "Elementos de cabecera"
+
+#: inc/customizer/header-panel.php:68
+msgid "Header Address"
+msgstr "Dirección de cabecera"
+
+#: inc/customizer/header-panel.php:91
+msgid "Header E-mail"
+msgstr "Correo electrónico de cabecera"
+
+#: inc/customizer/header-panel.php:114
+msgid "Header Phone"
+msgstr "Teléfono de cabecera"
+
+#: inc/customizer/header-panel.php:137
+msgid "Top Social Icons"
+msgstr "Iconos de redes sociales principales"
+
+#: inc/customizer/header-panel.php:138
+msgid "Show/hide option for Social Icons at top."
+msgstr "Mostrar/ocultar la opción  para los iconos de redes sociales arriba."
+
+#: inc/customizer/header-panel.php:157
+msgid "Additional Header Settings"
+msgstr "Ajustes de cabecera adicionales"
+
+#: inc/customizer/header-panel.php:180
+msgid "Header Sticky"
+msgstr "Cabecera fija"
+
+#: inc/customizer/header-panel.php:181
+msgid "Enable/Disable header sticky option."
+msgstr "Activar/Desactivar la opción de cabecera fija."
+
+#: inc/customizer/header-panel.php:184
+msgid "Enable"
+msgstr "Habilitar"
+
+#: inc/customizer/header-panel.php:185
+msgid "Disable"
+msgstr "Deshabilitar"
+
+#: inc/customizer/header-panel.php:209
+msgid "Search Icon"
+msgstr "Icono de búsqueda"
+
+#: inc/customizer/header-panel.php:210
+msgid "show/hide search icon at primary menu section."
+msgstr "mostrar/ocultar icono de búsqueda en la sección del menú primario."
+
+#: inc/metaboxes/page-metabox.php:16
+msgid "Page Options"
+msgstr "Opciones de página"
+
+#: inc/metaboxes/page-metabox.php:29 inc/metaboxes/post-metabox.php:29
+msgid "Default Sidebar"
+msgstr "Barra lateral por defecto"
+
+#: inc/metaboxes/page-metabox.php:35 inc/metaboxes/post-metabox.php:35
+msgid "Left sidebar"
+msgstr "Barra lateral izquierda"
+
+#: inc/metaboxes/page-metabox.php:41 inc/metaboxes/post-metabox.php:41
+msgid "Right sidebar"
+msgstr "Barra lateral derecha"
+
+#: inc/metaboxes/page-metabox.php:47 inc/metaboxes/post-metabox.php:47
+msgid "No sidebar Full width"
+msgstr "No hay barra lateral con anchura completa"
+
+#: inc/metaboxes/page-metabox.php:53 inc/metaboxes/post-metabox.php:53
+msgid "No sidebar Content Centered"
+msgstr "No hay contenido de la barra lateral centrado"
+
+#: inc/metaboxes/page-metabox.php:72 inc/metaboxes/post-metabox.php:72
+msgid "Information"
+msgstr "Información"
+
+#: inc/metaboxes/page-metabox.php:73 inc/metaboxes/post-metabox.php:73
+msgid "Sidebars"
+msgstr "Barras laterales"
+
+#: inc/metaboxes/page-metabox.php:80 inc/metaboxes/post-metabox.php:80
+msgid "About Metabox Options"
+msgstr "Acerca de las opciones de Metabox"
+
+#: inc/metaboxes/page-metabox.php:82 inc/metaboxes/post-metabox.php:82
+msgid "At Metabox there are option for sidebars."
+msgstr "En Metabox hay opciones para las barras laterales."
+
+#: inc/metaboxes/page-metabox.php:88 inc/metaboxes/post-metabox.php:88
+msgid "Available Sidebars"
+msgstr "Barras laterales disponibles"
+
+#: inc/metaboxes/page-metabox.php:89 inc/metaboxes/post-metabox.php:89
+msgid "Select sidebar from available options which replaced sidebar layout from customizer settings."
+msgstr "Selecciona una barra lateral entre las opciones disponibles que reemplace el diseño de la barra lateral de los ajustes del personalizador."
+
+#: inc/metaboxes/post-metabox.php:16
+msgid "Post Options"
+msgstr "Opciones de publicación"
+
+#: inc/widgets/scholarship-call-to-action.php:23
+msgid "Display content as Call To Action."
+msgstr "Mostrar contenidos como llamada a la acción."
+
+#: inc/widgets/scholarship-call-to-action.php:25
+msgid "Scholarship: Call To Action"
+msgstr "Scholarship: Llamada a la acción"
+
+#: inc/widgets/scholarship-call-to-action.php:38
+#: inc/widgets/scholarship-testimonials-widget.php:51
+msgid "Section Background Image"
+msgstr "Sección de imagen de entorno"
+
+#: inc/widgets/scholarship-call-to-action.php:44
+msgid "Section Content"
+msgstr "Sección de contenido"
+
+#: inc/widgets/scholarship-call-to-action.php:51
+msgid "Section Button Text"
+msgstr "Sección de botón de texto"
+
+#: inc/widgets/scholarship-call-to-action.php:57
+msgid "Section Button Url"
+msgstr "Sección de botón de URL"
+
+#: inc/widgets/scholarship-grid-layout.php:23
+msgid "Display posts from selected category as grid view."
+msgstr "Mostrar publicaciones desde categorías seleccionadas con vista de cuadrícula."
+
+#: inc/widgets/scholarship-grid-layout.php:25
+msgid "Scholarship: Grid Items"
+msgstr "Scholarship: Elementos de cuadrícula"
+
+#: inc/widgets/scholarship-grid-layout.php:38
+#: inc/widgets/scholarship-latest-blog-widget.php:40
+#: inc/widgets/scholarship-portfolio-widget.php:38
+#: inc/widgets/scholarship-sponsors-widget.php:39
+#: inc/widgets/scholarship-team-widget.php:38
+#: inc/widgets/scholarship-testimonials-widget.php:38
+msgid "Section Title"
+msgstr "Sección de título"
+
+#: inc/widgets/scholarship-latest-blog-widget.php:23
+msgid "Display latest posts except from selected categories."
+msgstr "Mostrar las últimas publicaciones excepto de las categorías seleccionadas."
+
+#: inc/widgets/scholarship-latest-blog-widget.php:25
+msgid "Scholarship: Latest Blog"
+msgstr "Scholarship: Último blog"
+
+#: inc/widgets/scholarship-latest-blog-widget.php:92
+msgid "Read More"
+msgstr "Leer más"
+
+#: inc/widgets/scholarship-portfolio-widget.php:25
+msgid "Scholarship: Portfolio"
+msgstr "Scholarship: Portafolio"
+
+#: inc/widgets/scholarship-sponsors-widget.php:24
+msgid "Display posts from sponsors category"
+msgstr "Mostrar publicaciones desde la categoría de patrocinadores"
+
+#: inc/widgets/scholarship-sponsors-widget.php:26
+msgid "Scholarship: Sponsors"
+msgstr "Scholarship: Patrocinadores"
+
+#: inc/widgets/scholarship-team-widget.php:23
+msgid "Display posts from selected category show as team layout."
+msgstr "Mostrar publicaciones desde la categoría seleccionada, mostrar como diseño de grupo."
+
+#: inc/widgets/scholarship-team-widget.php:25
+msgid "Scholarship: Team Member"
+msgstr "Scholarship: Miembro del equipo"
+
+#: inc/widgets/scholarship-testimonials-widget.php:23
+msgid "Display posts from selected category as testimonials layout."
+msgstr "Mostrar publicaciones desde la categoría seleccionada como diseño de recomendaciones."
+
+#: inc/widgets/scholarship-testimonials-widget.php:25
+msgid "Scholarship: Testimonials"
+msgstr "Scholarship: Recomendaciones"
+
+#: inc/widgets/scholarship-widget-areas.php:25
+#: inc/widgets/scholarship-widget-areas.php:40
+#: inc/widgets/scholarship-widget-areas.php:55
+msgid "Add widgets here."
+msgstr "Añadir widgets aquí."
+
+#: inc/widgets/scholarship-widget-areas.php:53
+msgid "Homepage Section Area"
+msgstr "Área de la sección de inicio"
+
+#: inc/widgets/scholarship-widget-areas.php:68
+msgid "Footer Area %d"
+msgstr "Área de pie de página %d"
+
+#: inc/widgets/scholarship-widget-areas.php:70
+msgid "Added widgets are display at Footer Widget Area."
+msgstr "Los widgets añadidos se muestran en el área de widget de pie de página."
+
+#: inc/widgets/scholarship-widget-fields.php:120
+msgid "- - Select Category - -"
+msgstr "- - Seleccionar categoría - -"
+
+#: inc/widgets/scholarship-widget-fields.php:162
+msgid "No image selected"
+msgstr "No se ha seleccionado ninguna imagen"
+
+#: inc/widgets/scholarship-widget-fields.php:169
+msgid "Remove"
+msgstr "Eliminar"
+
+#: inc/widgets/scholarship-widget-fields.php:170
+msgid "Select Image"
+msgstr "Seleccionar imagen"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Roboto Condensed, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/scholarship-functions.php:26
+msgctxt "Roboto Slab font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/widgets/scholarship-grid-layout.php:44
+#: inc/widgets/scholarship-latest-blog-widget.php:46
+#: inc/widgets/scholarship-portfolio-widget.php:44
+#: inc/widgets/scholarship-sponsors-widget.php:45
+#: inc/widgets/scholarship-team-widget.php:44
+#: inc/widgets/scholarship-testimonials-widget.php:44
+msgid "Section Info"
+msgstr "Información de la sección"
+
+#: inc/widgets/scholarship-grid-layout.php:51
+#: inc/widgets/scholarship-portfolio-widget.php:51
+#: inc/widgets/scholarship-sponsors-widget.php:52
+#: inc/widgets/scholarship-team-widget.php:51
+#: inc/widgets/scholarship-testimonials-widget.php:57
+msgid "Section Category"
+msgstr "Categoría de la sección"
+
+#: inc/widgets/scholarship-grid-layout.php:58
+#: inc/widgets/scholarship-latest-blog-widget.php:60
+#: inc/widgets/scholarship-portfolio-widget.php:58
+#: inc/widgets/scholarship-team-widget.php:58
+msgid "Section Post Count"
+msgstr "Número de entradas de la sección"
+
+#: inc/widgets/scholarship-latest-blog-widget.php:53
+msgid "Section Categories"
+msgstr "Categorías de la sección"
+
+#: inc/widgets/scholarship-latest-blog-widget.php:67
+msgid "Section button text"
+msgstr "Botón de texto de la sección"
+
+#: inc/widgets/scholarship-portfolio-widget.php:23
+msgid "Display posts from selected category show in fullwidth"
+msgstr "Mostrar publicaciones de la categoría seleccionada mostradas en anchura completa"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! Está página no &rsquo; puede ser encontrada."
+
+#: 404.php:21
+msgid "404"
+msgstr "404"
+
+#: 404.php:21
+msgid "error"
+msgstr "error"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location."
+msgstr "Parece que no se encontró nada en esta ubicación."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:42
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s un pensamiento en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensamientos en &ldquo;%2$s&rdquo;"
+
+#: comments.php:52 comments.php:73
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments.php:55 comments.php:76
+msgid "Older Comments"
+msgstr "Comentarios anteriores"
+
+#: comments.php:56 comments.php:77
+msgid "Newer Comments"
+msgstr "Comentarios más recientes"
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#. #-#-#-#-#  scholarship.pot (Scholarship 1.0.9)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: footer.php:35 inc/about-theme/scholarship-about.php:441
+#: inc/customizer/footer-panel.php:144
+msgid "Scholarship"
+msgstr "Scholarship"
+
+#: footer.php:38
+msgid "%1$s by %2$s."
+msgstr "%1$s por %2$s."
+
+#: functions.php:69
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: functions.php:70 inc/customizer/customizer-sanitize.php:98
+#: inc/customizer/footer-panel.php:181
+msgid "Footer Menu"
+msgstr "Menú de pie de página"
+
+#: header.php:71
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda para: %s"
+
+#: inc/customizer/additional-panel.php:32
+msgid "Additional Settings"
+msgstr "Ajustes adicionales"
+
+#: inc/customizer/additional-panel.php:44
+msgid "Social Icons"
+msgstr "Iconos de redes sociales"
+
+#: inc/customizer/additional-panel.php:71
+msgid "Social Media Icons"
+msgstr "Iconos de redes sociales"
+
+#: inc/customizer/additional-panel.php:75
+msgid "Social Media Icon"
+msgstr "Icono de redes sociales"
+
+#: inc/customizer/additional-panel.php:76
+msgid "Add Icon"
+msgstr "Añadir icono"
+
+#. Theme URI of the plugin/theme
+msgid "https://mysterythemes.com/wp-themes/scholarship/"
+msgstr "https://mysterythemes.com/wp-themes/scholarship/"
+
+#. Author of the plugin/theme
+msgid "Mystery Themes"
+msgstr "Mystery Themes"
+
+#. Author URI of the plugin/theme
+msgid "https://mysterythemes.com"
+msgstr "https://mysterythemes.com"
