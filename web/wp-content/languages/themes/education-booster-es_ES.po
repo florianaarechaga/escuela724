@@ -1,0 +1,523 @@
+# Translation of Themes - Education Booster in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Education Booster package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-10-15 20:29:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Education Booster\n"
+
+#. Description of the plugin/theme
+msgid "Education Booster is a powerful WordPress theme that specializes in education. Education Booster is a robust and reliable, colorful and youthful, clean and pristine, easy to use and readily responsive WordPress creative website theme for professionals, colleges, schools, universities or private educational institutions. Education Booster has a streamlined, practical design that is sure to attract many readers."
+msgstr "Education Booster es un tema de WordPress completo pensado especialmente para educación. Education Booster es robusto y de confianza, colorido y juvenil, limpio y original, y fácil de usar. Es un tema responsivo con el que puedes crear un sitio web WordPress para profesionales, escuelas, institutos, universidades o otras instituciones privadas. Education Booster está optimizado y tiene un diseño práctico que será seguramente atractivo para la mayoría de usuarios"
+
+#: modules/customizer/settings/general.php:53
+msgid "Top Header Dark Background Color"
+msgstr "Color de fondo oscuro de la cabecera superior"
+
+#: modules/customizer/settings/general.php:64
+msgid "Disable Fixed Header"
+msgstr "Desactivar cabecera fija"
+
+#. Template Name of the plugin/theme
+msgid "Compact"
+msgstr "Compacto"
+
+#: template-parts/page/content.php:21
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/page/content-none.php:43
+msgid "Add New Post"
+msgstr "Añadir Nueva Entrada"
+
+#: template-parts/page/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps another searching can help."
+msgstr "Parece que no hay resultados para tu búsqueda. Quizás otra búsqueda puede ayudarte."
+
+#: template-parts/page/content-none.php:28
+msgid "It looks like nothing was found. Want to try another by search?"
+msgstr "Parece que no se encontró nada. ¿Quieres probar con otra búsqueda?"
+
+#: template-parts/page/content-none.php:20
+msgid "NOTHING FOUND"
+msgstr "NADA ENCONTRADO"
+
+#: template-parts/page/content-none.php:17
+msgid "PAGE NOT FOUND"
+msgstr "PÁGINA NO ENCONTRADA"
+
+#: template-parts/page/content-author-detail.php:15
+msgid "Post Author:"
+msgstr "Autor:"
+
+#: template-parts/front-page/services.php:69
+msgid "More"
+msgstr "Más"
+
+#: template-parts/front-page/features.php:76
+msgid "Learn more"
+msgstr "Aprender más"
+
+#. Template Name of the plugin/theme
+msgid "Left Sidebar"
+msgstr "Barra Lateral Izquierda"
+
+#: template-parts/front-page/about.php:51
+msgid "Register Now"
+msgstr "Regístrate"
+
+#: template-parts/archive/content.php:75
+msgid "Read More"
+msgstr "Leer Más"
+
+#. Template Name of the plugin/theme
+msgid "Front Page"
+msgstr "Página de inicio"
+
+#: modules/customizer/settings/general.php:70
+msgid "Footer Text"
+msgstr "Texto en Pie de Página"
+
+#: modules/customizer/settings/general.php:26
+msgid "Primary"
+msgstr "Principal"
+
+#: modules/customizer/settings/general.php:14
+msgid "Site Title"
+msgstr "Título de sitio"
+
+#: modules/customizer/settings/general.php:20
+msgid "Site Tagline"
+msgstr "Eslogan"
+
+#: modules/customizer/settings/frontpage.php:128
+msgid "Number of Posts"
+msgstr "Número de entradas"
+
+#: modules/customizer/settings/frontpage.php:88
+msgid "Select a Callback Page"
+msgstr "Seleccionar página para Callback"
+
+#: modules/customizer/settings/frontpage.php:63
+msgid "Feature Page"
+msgstr "Página Características"
+
+#: modules/customizer/settings/frontpage.php:57
+msgid "Select Main Page for Features"
+msgstr "Seleccionar página principal para Características"
+
+#: modules/customizer/settings/frontpage.php:47
+#: modules/customizer/settings/frontpage.php:66
+#: modules/customizer/settings/frontpage.php:108
+#: modules/customizer/settings/general.php:50
+msgid "Input page id. Separate with comma. for eg. 2,9,23"
+msgstr "ID de página, separada con coma. Ej: 2,9,23"
+
+#: modules/customizer/settings/frontpage.php:44
+msgid "Service Page"
+msgstr "Página Servicio"
+
+#: modules/customizer/settings/frontpage.php:39
+msgid "Select Main Page for Services"
+msgstr "Seleccionar página principal para Servicio"
+
+#: template-parts/front-page/slider.php:48
+msgid "Learn More"
+msgstr "Aprender más"
+
+#: modules/customizer/settings/frontpage.php:32
+msgid "Slider Timeout ( in sec )"
+msgstr "Tiempo entre diapositivas (segundos)"
+
+#: modules/customizer/settings/frontpage.php:27
+msgid "Slider Auto Play"
+msgstr "Pase diapositivas automático"
+
+#: modules/customizer/settings/frontpage.php:21
+msgid "Show Slider Control"
+msgstr "Mostrar controles de diapositivas"
+
+#: modules/customizer/settings/frontpage.php:15
+msgid "Slider Page"
+msgstr "Página de Diapositiva"
+
+#: modules/customizer/sections/sections.php:53
+msgid "Footer"
+msgstr "Pie de página"
+
+#: modules/customizer/sections/sections.php:49
+msgid "Header"
+msgstr "Cabecera"
+
+#: modules/customizer/sections/sections.php:45
+msgid "General"
+msgstr "General"
+
+#: modules/customizer/sections/sections.php:27
+msgid "About"
+msgstr "Sobre nosotros"
+
+#: modules/customizer/sections/sections.php:19
+msgid "Service"
+msgstr "Servicio"
+
+#: modules/customizer/sections/sections.php:15
+msgid "Slider"
+msgstr "Diapositivas"
+
+#: modules/customizer/panels/panels.php:16
+msgid "Theme Options"
+msgstr "Opciones del Tema"
+
+#: modules/customizer/loader.php:21
+msgid "Background"
+msgstr "Fondo"
+
+#: modules/customizer/framework/post-control.php:39
+msgid "Select"
+msgstr "Seleccionar"
+
+#: modules/customizer/framework/customizer.php:268
+#: modules/customizer/framework/customizer.php:308
+msgid "No Title Specified."
+msgstr "Sin título especificado."
+
+#: modules/customizer/framework/category-control.php:23
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Seleccionar &mdash;"
+
+#. #-#-#-#-#  education-booster.pot (Education Booster 1.1.7)  #-#-#-#-#
+#. Author of the plugin/theme
+#: modules/customizer/defaults/defaults.php:68
+msgid "Keon Themes"
+msgstr "Keon Themes"
+
+#: modules/customizer/defaults/defaults.php:67
+msgid "Education Booster Theme by"
+msgstr "Tema Education Booster por "
+
+#: modules/customizer/defaults/defaults.php:65
+msgid "WordPress"
+msgstr "WordPress"
+
+#: modules/customizer/defaults/defaults.php:35
+msgid "RECENT BLOG"
+msgstr "Entradas Recientes"
+
+#: modules/customizer/defaults/defaults.php:17
+msgid "Education WP Theme"
+msgstr "Education WP Theme"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: modules/breadcrumbs/breadcrumbs.php:256
+msgid "Week %s"
+msgstr "Semana %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: modules/breadcrumbs/breadcrumbs.php:254
+msgid "Minute %s"
+msgstr "Minuto %s"
+
+#. Translators: %s is the page number.
+#: modules/breadcrumbs/breadcrumbs.php:252
+msgid "Page %s"
+msgstr "Página %s"
+
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+#: modules/breadcrumbs/breadcrumbs.php:250
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Buscados resultados para &#8220;%s&#8221;"
+
+#: modules/breadcrumbs/breadcrumbs.php:248
+msgid "Archives"
+msgstr "Archivos"
+
+#: modules/breadcrumbs/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr "404 Página no encontrada"
+
+#: modules/breadcrumbs/breadcrumbs.php:246 modules/helpers/helpers.php:180
+msgid "Home"
+msgstr "Inicio"
+
+#: modules/breadcrumbs/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Migas de pan"
+
+#: index.php:37 search.php:31
+msgid "Page"
+msgstr "Página"
+
+#: index.php:36 search.php:30
+msgid "Prev"
+msgstr "Anterior"
+
+#: inc/template-tags.php:185
+msgid "Posted on"
+msgstr "Publicado en"
+
+#: inc/template-tags.php:83
+msgid "Categories"
+msgstr "Categorías"
+
+#: inc/template-tags.php:24
+msgid "EDIT<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Editar<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/setup.php:171
+msgid "Add widgets here."
+msgstr "Añadir Widgets aquí."
+
+#. #-#-#-#-#  education-booster.pot (Education Booster 1.1.7)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/setup.php:169
+msgid "Right Sidebar"
+msgstr "Barra Lateral Derecha"
+
+#: inc/setup.php:67
+msgid "Default Header Image"
+msgstr "Imagen de Cabecera por defecto"
+
+#: inc/setup.php:41
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: inc/setup.php:42
+msgid "Social Menu"
+msgstr "Menú Social"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: functions.php:251 modules/customizer/sections/sections.php:39
+msgid "Blog"
+msgstr "Blog"
+
+#: functions.php:73
+msgid "search..."
+msgstr "buscar..."
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Comentarios cerrados"
+
+#: comments.php:62 index.php:35 search.php:29
+msgid "Next"
+msgstr "Siguiente"
+
+#: comments.php:61
+msgid "Previous"
+msgstr "Anterior"
+
+#: comments.php:55
+msgid "Reply"
+msgstr "Respuesta"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Respuesta a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Respuestas a &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Una respuesta a &ldquo;%s&rdquo;"
+
+#: modules/breadcrumbs/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: modules/breadcrumbs/breadcrumbs.php:760
+#: modules/breadcrumbs/breadcrumbs.php:1184
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: modules/breadcrumbs/breadcrumbs.php:759
+#: modules/breadcrumbs/breadcrumbs.php:815
+#: modules/breadcrumbs/breadcrumbs.php:1180
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: modules/breadcrumbs/breadcrumbs.php:758
+#: modules/breadcrumbs/breadcrumbs.php:787
+#: modules/breadcrumbs/breadcrumbs.php:814
+#: modules/breadcrumbs/breadcrumbs.php:841
+#: modules/breadcrumbs/breadcrumbs.php:1176
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: modules/breadcrumbs/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: modules/breadcrumbs/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: modules/breadcrumbs/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#. #-#-#-#-#  education-booster.pot (Education Booster 1.1.7)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: modules/customizer/defaults/defaults.php:15
+msgid "Education Booster"
+msgstr "Education Booster"
+
+#: single.php:36
+msgid "Next Post"
+msgstr "Siguiente entrada"
+
+#: single.php:35
+msgid "Previous Post"
+msgstr "Entrada anterior"
+
+#: modules/customizer/settings/general.php:58
+msgid "Disable Top Header"
+msgstr "Desactivar barra superior"
+
+#: modules/customizer/settings/frontpage.php:137
+msgid "Disable Blog Section"
+msgstr "Desactivar sección Blog"
+
+#: modules/customizer/settings/frontpage.php:123
+msgid "Choose Blog Category"
+msgstr "Elegir categoría de blog"
+
+#: modules/customizer/settings/frontpage.php:118
+msgid "Select a main page for Blog"
+msgstr "Seleccionar página principal para el blog"
+
+#: modules/customizer/settings/frontpage.php:111
+msgid "Disable Testimonial Section"
+msgstr "Deshabilitar sección testimonios"
+
+#: modules/customizer/settings/frontpage.php:105
+msgid "Testimonial Pages"
+msgstr "Páginas de testimonios"
+
+#: modules/customizer/settings/general.php:40
+msgid "Enable Scroll top in mobile"
+msgstr "Activar el botón volver arriba en móvil"
+
+#: modules/customizer/settings/frontpage.php:100
+msgid "Select a main page for Testimonial"
+msgstr "Seleccionar página principal para los testimonios"
+
+#: modules/customizer/sections/sections.php:35
+msgid "Testimonial"
+msgstr "Testimonio"
+
+#: modules/customizer/sections/sections.php:23
+msgid "Feature"
+msgstr "Característica"
+
+#: modules/customizer/settings/frontpage.php:93
+msgid "Disable Callback Section"
+msgstr "Deshabilitar sección Callback"
+
+#: modules/customizer/settings/frontpage.php:81
+msgid "Disable About Us Section"
+msgstr "Deshabilitar sección Sobre nosotros"
+
+#: modules/customizer/settings/frontpage.php:76
+msgid "Select About Page"
+msgstr "Seleccionar página para Sobre nosotros"
+
+#: modules/customizer/settings/frontpage.php:69
+msgid "Disable Feature Section"
+msgstr "Deshabilitar sección Características"
+
+#: modules/customizer/settings/frontpage.php:50
+msgid "Disable Service Section"
+msgstr "Deshabilitar sección Servicios"
+
+#: modules/customizer/settings/frontpage.php:18
+msgid "Input page id. Separate with comma. for eg. 2,9,23. Supports Maximum 3 sliders."
+msgstr "ID de página, separada con coma. Ej: 2,9,23. Permite como máximo 3 diapositivas."
+
+#: modules/customizer/panels/panels.php:13
+msgid "Front Page Options"
+msgstr "Opciones página de inicio"
+
+#: modules/customizer/defaults/defaults.php:64
+msgid "&copy Copyright 2018; All Rights Reserved. Proudly powered by"
+msgstr "&copy Copyright 2018; Todos los derechos reservados. Funciona con"
+
+#: modules/breadcrumbs/breadcrumbs.php:244
+msgid "Browse:"
+msgstr "Explorar:"
+
+#: index.php:36 search.php:30
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: index.php:35 search.php:29
+msgid "Next page"
+msgstr "Página siguiente"
+
+#: inc/template-tags.php:73
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: inc/back-compat.php:36 inc/back-compat.php:48 inc/back-compat.php:62
+msgid "Education Booster requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
+msgstr "Education Booster necesita WordPress versión 4.7 o superior. Tu versión es %s. Por favor actualízala e inténtalo de nuevo."
+
+#: functions.php:247
+msgid "Search Results for: "
+msgstr "Resultados de buscar: "
+
+#. translators: %s: user name
+#: functions.php:113
+msgid "Logged in as %s. Edit your profile."
+msgstr "Conectado como %s. Edita tu perfil."
+
+#. translators: 1: edit user link, 2: accessibility text, 3: user name, 4:
+#. logout URL
+#: functions.php:110
+msgid "<a href=\"%1$s\" aria-label=\"%2$s\">Logged in as %3$s</a> <a href=\"%4$s\">Log out?</a>"
+msgstr "<a href=\"%1$s\" aria-label=\"%2$s\">Conectado como %3$s</a> <a href=\"%4$s\">Desconectar</a>"
+
+#: functions.php:72
+msgid "hit enter for search."
+msgstr "presiona enter para buscar."
+
+#: modules/customizer/settings/general.php:34
+msgid "Additional Space on top of Menu."
+msgstr "Espacio adicional por encima del menú."
+
+#: modules/customizer/settings/general.php:47
+msgid "Top Header Left Content"
+msgstr "Contenido a la izquierda de la cabecera superior"
+
+#: modules/customizer/sections/sections.php:31
+msgid "Callback"
+msgstr "Retorno"
+
+#. Author URI of the plugin/theme
+msgid "https://keonthemes.com"
+msgstr "https://keonthemes.com"
+
+#. Theme URI of the plugin/theme
+msgid "https://keonthemes.com/downloads/education-booster"
+msgstr "https://keonthemes.com/downloads/education-booster"

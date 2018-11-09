@@ -1,0 +1,221 @@
+body{
+/*font: 15px Arial, Helvetica, sans-serif;*/
+
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Salsa', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Londrina Outline', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Abel', sans-serif;
+
+
+
+/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+padding: 0;
+margin: 0;
+/*background-color: #f4f4f4*/
+background-image: url("img/724.jpg"); 
+}
+.menu-principal li{
+float: left;
+display: inline;
+padding: 0 20px 0 0px; /*arriba izquierda abajo derecha*/
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 20px;
+}
+ul.submenu-personal li{
+	display: block;
+	}
+
+/* Estilos globales */
+.contenedor{
+width: 90%; /*ancho*/
+margin: auto;
+overflow: hidden;
+
+}
+.menu{
+	display: grid;
+	grid-template-columns: 10% 25% 60%;
+
+}
+.menu #lista{
+	padding-top: 30px;
+	
+}
+
+.menu #logo img{
+	border-radius: 50%; /* pone la imagen en forma de circulo */
+
+}
+.talleres{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 100%;
+	margin-top: 20px;
+	text-align: center;
+
+
+}
+
+.talleres .caja img{
+width: 90px; /* redimensiona el tamaño de las imagenes */
+}
+#galeria{
+	padding: 90px;
+}
+
+/*
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+	margin-top: 20px; /* Para dejar un espacio en blanco 
+} */
+
+#logo{
+	text-align: center;
+}
+
+
+ul{
+margin: 0;
+padding: 0;
+float: right;
+}
+
+.boton1{
+height: 38px;
+background: #7E3030;
+border: 0;
+padding-left: 20px;
+padding-right: 20px;
+color: #fff;
+}
+
+/* Encabezado */
+
+header{
+background-color: #E9ECEC;  /*Color de fondo de menu */
+/*background: linear-gradient(black, yellow);*/
+color: #000;
+padding-top: 0px;
+min-height: 70px;
+border-bottom: 5px solid #7E3030;
+
+}
+
+header a{
+color: #000;
+text-decoration: none; /* Elimina linea debajo del texto */
+text-transform: uppercase; /* convierte el texto a mayuscula */
+font-size: 16px.
+}
+/*
+header li{
+float: left;
+display: inline;
+padding: 0 20px 0 0px; /*arriba izquierda abajo derecha
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 20px;
+}                 */
+
+header #marca{
+float: left;
+}
+
+header #marca h1{
+margin: 0;
+font-size: 40px;
+color: #979494;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+header nav{
+float: right;
+margin-top: 10px;
+}
+header .resaltado, header .actual{
+color: #7E3030;   /*979494*/
+font-weight: bold; /*fuente negrita*/
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Salsa', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Londrina Outline', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Abel', sans-serif;
+}
+header a:hover{
+color: #ccc;
+font-weight: bold; /*fuente negrita*/
+}
+
+/* Cabecera con imagen*/
+
+#cabecera .contenedor h1{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#cabecera{
+min-height: 600px; /* Tamaño de imagen */
+background-image: url("../img/fotoRobotica.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+text-align: center;
+color: #7B0B02;
+border-bottom: 5px solid #7E3030;
+}
+#cabecera h1{
+margin-top: 50px;
+font-size: 40px; /* Tamaño fuente Escuela secundaria de ...*/
+margin-bottom: 10px;
+
+}
+#cabecera p{
+font-size: 20px;
+}
+
+
+/* Formulario boletin */
+
+#boletin{
+padding: 2px;
+color: #979494;
+background: linear-gradient(#E9ECEC, #F5F5F5);
+/*background: #373636; Color de fondo de boletin */
+}
+#boletin h1{
+float: left;
+}
+#boletin form{
+float: right;
+margin-top: 15px;
+}
+#boletin input [type="email"]{
+padding: 4px;
+height: 25px;
+width: 250px;
+}
+
+
+/* Cajas */
+
+
+
+/* Footer o pie de pagina */
+footer{
+	padding: 10px;
+	margin-top: 0px;
+	color: #fff;
+	background-color: #7E3030;
+	text-align: center;
+}
+
+#contacto{
+	font-size: 10px;
+
+}
